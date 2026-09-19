@@ -15,3 +15,6 @@ class LinkedList:
         node = self.Node(element)
         if self.is_empty():
             self.head = node
+        else:
+            current_node = self.head
+            while 
