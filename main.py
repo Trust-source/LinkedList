@@ -10,3 +10,8 @@ class LinkedList:
 
     def is_empty(self):
         return self.length == 0
+
+    def add(self, element):
+        node = self.Node(element)
+        if self.is_empty():
+            self.head = node
