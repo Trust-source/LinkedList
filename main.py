@@ -24,4 +24,4 @@ class LinkedList:
 
 
     def remove(self, element):
-        node = self.Node(element)
+        previous_node = None
