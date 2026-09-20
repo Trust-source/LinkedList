@@ -25,3 +25,4 @@ class LinkedList:
 
     def remove(self, element):
         previous_node = None
+        current.mode = self.head
