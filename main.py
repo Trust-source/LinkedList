@@ -25,5 +25,6 @@ class LinkedList:
 
     def remove(self, element):
         previous_node = None
-        current.node = self.head
-        while current.node is not None and current_node
+        current_node = self.head
+        while current_node is not None and current_node != element:
+            previous_node = current_node
