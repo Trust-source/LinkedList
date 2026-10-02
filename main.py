@@ -31,3 +31,5 @@ class LinkedList:
             current_node = current_node.next
         if current_node is None:
             return
+        elif previous_node is not None:
+            previous_node.next = current_node.next
